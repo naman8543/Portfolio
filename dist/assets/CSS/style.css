@@ -1,0 +1,88 @@
+body {
+    background-color:rgb(32, 32, 166);
+    color: white; 
+}
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+ 
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(3, 3, 71);
+
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: red;
+    font-size: 1.5rem;
+  }
+  .left {
+    font-size: 15px;
+  }
+   .firstsection {
+    display: flex;
+    justify-content:space-between;
+    margin: 50px 0;
+    
+  }
+  
+   .firstsection > div{
+    width: 30%;
+  }
+   .leftsection{
+    width:50% ;
+    font-size: 2rem ;
+    float: left;
+  }
+  
+  .rightsection { 
+    width: 80%;
+    margin: 50px;
+    float: right;
+    
+  }
+  .rightsection img{ 
+    width: 80%;
+    margin: 50px 0 ;
+    float: right;
+    
+  }
+  #element{
+    color: rgb(190, 201, 40);
+    font-size: 3rem;
+
+  }
+  .footer{
+    background-color:orangered ;
+    height: 200px;
+
+  }
+  .footer{
+    display: flex ;
+    padding: 25px ;
+    justify-content: space-evenly;
+
+  }
+  .button{
+    color: red;
+  }
+div.leftsection{
+  margin-left: 90px;
+}
+  
